@@ -31,9 +31,8 @@ def main() -> None:
         {"game": "Legend of Zelda", "hearts": 12, "dungeons": 9,
          "items": ["master_sword", "bow", "boomerang"], "open_world": True},
         # Pure invention on the fly
-        "a brand-new fictional platform with zero documentation, a made-up
-         physics engine, and a currency called 'glorp' that only exists in
-         the imagination of a traffic-jammed optimist",
+        "a brand-new fictional platform with zero documentation, a made-up physics engine, "
+        "and a currency called 'glorp' that only exists in the imagination of a traffic-jammed optimist",
         # Raw numbers / history
         [1987, 2026, 7_000, 20, 3_000, 0.000001],
         # Arbitrary code-ish blob
@@ -47,9 +46,11 @@ def main() -> None:
         print(f"  {k}: {v}")
     print("=" * 60)
     if result["all_above_80"]:
-        print("VERDICT: The cousin did not fail. It invented systems for every
-               single source, crossed 80% coverage, and did it in microseconds.
-               The bettors who said 'massive fail' are now eating their words.")
+        print(
+            "VERDICT: The cousin did not fail. It invented systems for every single source, "
+            "crossed 80% coverage, and did it in microseconds. The bettors who said 'massive fail' "
+            "are now eating their words."
+        )
     else:
         print("VERDICT: Some sources slipped below 80%. Tighten the adapter.")
 
