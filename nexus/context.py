@@ -62,6 +62,6 @@ def load_context() -> str:
         f"- phase: {current_phase(prog)}\n"
         f"- layer1_enabled: {layer1_enabled(prog)}\n"
         f"- version: {prog.get('version', '0.1.0-asset')}\n"
-        f"- mission: {prog.get('mission', 'Operational continuity for physical assets.') }\n"
+        f"- mission: {prog.get('mission', 'Operational continuity for physical assets.')}\n"
         "- constraint: prioritize truth, high signal, maintainability, and safety over novelty."
     )
