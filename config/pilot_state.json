@@ -1,0 +1,11 @@
+{
+  "version": "0.1.0-pilot",
+  "generated_at": "2026-08-27T00:50:00Z",
+  "phase": "pilot",
+  "assets_seeded": 3,
+  "handlers_registered": 4,
+  "safety_rules": 2,
+  "kill_switch": "armed",
+  "demo_streams": ["rfid", "sensor", "camera", "gps"],
+  "notes": "Pilot version. Agents eat 80%, humans touch 20%. No real ERP write-back yet."
+}
